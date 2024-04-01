@@ -31,10 +31,7 @@ function headerShadow() {
 }
 
 
-/* ----- TYPING EFFECT ----- */
-var typingEffect = new Typed(".typedText",{
-  strings : ["Developer"],
-})
+
 
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
