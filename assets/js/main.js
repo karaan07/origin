@@ -35,7 +35,7 @@ function headerShadow() {
 
 
 /* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
-/*const sr = ScrollReveal({
+const sr = ScrollReveal({
       origin: 'top',
       distance: '80px',
       duration: 2000,
@@ -43,7 +43,7 @@ function headerShadow() {
 })
 
 /* -- HOME -- */
-/*sr.reveal('.featured-text-card',{})
+sr.reveal('.featured-text-card',{})
 sr.reveal('.featured-name',{delay: 100})
 sr.reveal('.featured-text-info',{delay: 200})
 sr.reveal('.featured-text-btn',{delay: 200})
@@ -52,15 +52,15 @@ sr.reveal('.featured-image',{delay: 300})
 
 
 /* -- PROJECT BOX -- */
-/*sr.reveal('.project-box',{interval: 200})
+sr.reveal('.project-box',{interval: 200})
 
 /* -- HEADINGS -- */
-/*sr.reveal('.top-header',{})
+sr.reveal('.top-header',{})
 
 /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
 /* -- ABOUT INFO & CONTACT INFO -- */
-/*const srLeft = ScrollReveal({
+const srLeft = ScrollReveal({
 origin: 'left',
 distance: '80px',
 duration: 2000,
@@ -71,7 +71,7 @@ srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
 
 /* -- ABOUT SKILLS & FORM BOX -- */
-/*const srRight = ScrollReveal({
+const srRight = ScrollReveal({
 origin: 'right',
 distance: '80px',
 duration: 2000,
